@@ -1,0 +1,143 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #900c3f;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+
+/* ID section */
+#title {
+  background-color: orange;
+}
+
+/* Headings */
+.title-heading {
+  color: #900c3f;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 3.7rem;
+  line-height: 1.5;
+  padding: 3% 5%;
+}
+
+.title-description {
+  color: #fbe6d4;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding: 2% 2%;
+}
+.title-image{
+  padding: 2% 3%;
+}
+
+/* Container  */
+.container-fluid {
+  padding: 2% 11%;
+}
+
+/* Navigation Bar */
+/* @media(max-width:1000px) {
+  .nav-link{
+    text-align: left;
+  }
+}  */
+.navbar {
+  width: 100%;
+}
+
+.nav-item {
+  padding: 0 0.5em 0;
+}
+
+.nav-link {
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-left: 5px;
+}
+
+.nav-link:hover {
+  color: #fbe6d4;
+}
+
+/* Information bar */
+.information-sec {
+  background-color: #4a3f35;
+  color: #fff;
+  padding-bottom: 1%;
+  position: relative;
+}
+
+/* Order and Card Section */
+.card-image{
+  max-height: 200px;
+  max-width:300px;
+  padding: 3% 3%;
+}
+
+/* Carasol Images */
+.carousel-item {
+  padding: 3% 6%;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 3rem;
+}
+
+.carousel-control-next-icon {
+  margin-left: 3rem;
+}
+
+.food-image {
+  border-radius: 15%;
+  height: 300px !important;
+  margin: 1px 1px 35px;
+  width: 100%;
+}
+
+/* Order Section */
+#order{
+  background-color:#f7f7ee;
+  color:
+}
+
+/* Delivery partners */
+#delivery-partners {
+  background-color: #fa7d09;
+  padding: 3% 5%;
+}
+
+.delivey-text {
+  padding: 9% 0;
+}
+
+.delivey-img {
+  padding: 10% 10%;
+}
+
+/* Cart Hover Effect  */
+/* Glow */
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
