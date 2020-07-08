@@ -13,9 +13,11 @@ h1, h2, h3, h4, h5 {
 #title {
   background-color: orange;
 }
-.title{
-  padding-top: 10%;
+
+.title {
+  padding-top: 9%;
 }
+
 /* Headings */
 .title-heading {
   color: #900c3f;
@@ -33,13 +35,14 @@ h1, h2, h3, h4, h5 {
   line-height: 1.9rem;
   padding: 2% 2%;
 }
-.title-image{
+
+.title-image {
   padding: 2% 3%;
 }
 
 /* Container  */
 .container-fluid {
-  padding: 2% 11%;
+  padding: 2% 15%;
 }
 
 /* Navigation Bar */
@@ -78,10 +81,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Order and Card Section */
-.card-image{
+.card-image {
   max-height: 200px;
-  max-width:300px;
+  max-width: 300px;
   padding: 3% 3%;
+}
+
+.card {
+  margin: 3% 3%;
 }
 
 /* Carasol Images */
@@ -105,10 +112,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Order Section */
-#order{
-  background-color:#f4f4f4;
-  padding-top: 5%;
+#order {
+  background-color: #f4f4f4;
 }
+
 
 /* Delivery partners */
 #delivery-partners {
@@ -124,34 +131,61 @@ h1, h2, h3, h4, h5 {
   padding: 10% 10%;
 }
 
+/* About us and Partners section */
+#aboutUs {
+  background-color: #f0a500;
+}
+
+.abtUs-header {
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 3.7rem;
+  line-height: 1.5;
+  padding: 2% 5%;
+}
+
+.abtUs-text {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding: 2% 2%;
+}
+
+.DeliveryPartners{
+  background-color: #4a3f35;
+  color: #fff;
+  padding-bottom: 1%;
+  position: relative;
+}
 
 /* Footer */
-#footer{
+#footer {
   background-color: #4a3f35;
   color: white;
 }
-.socfoot{
-  padding:  5% 5%;
+
+.socfoot {
+  padding: 5% 5%;
   color: white;
 }
 
-.socFoot:hover{
+.socFoot:hover {
   color: gold;
 }
 
-.textSocial{
+.textSocial {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.9rem;
 }
 
-#map{
+#map {
   height: 400px;
   width: 100%;
 }
 
-.map-text{
+.map-text {
   font-family: 'IM Fell Great Primer', serif;
   font-size: 1.3rem;
   font-weight: 100;
