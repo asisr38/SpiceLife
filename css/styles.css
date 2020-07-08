@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5 {
 
 /* Container  */
 .container-fluid {
-  padding: 2% 15%;
+  padding: 2% 10%;
 }
 
 /* Navigation Bar */
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5 {
 /* Order Section */
 #order {
   background-color: #f4f4f4;
+  padding-top: 3%;
 }
 
 
