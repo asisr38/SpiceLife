@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5 {
   }
 }  */
 .navbar {
-  width: 100%;
+  width: 95%;
   background-color: orange;
 }
 
@@ -84,31 +84,13 @@ h1, h2, h3, h4, h5 {
 .card-image {
   max-height: 200px;
   max-width: 300px;
-  padding: 3% 3%;
+  text-align: center;
+  padding: 5% 5%;
 }
 
 .card {
   margin: 3% 3%;
-}
-
-/* Carasol Images */
-.carousel-item {
-  padding: 3% 6%;
-}
-
-.carousel-control-prev-icon {
-  margin-right: 3rem;
-}
-
-.carousel-control-next-icon {
-  margin-left: 3rem;
-}
-
-.food-image {
-  border-radius: 15%;
-  height: 300px !important;
-  margin: 1px 1px 35px;
-  width: 100%;
+  text-align: center;
 }
 
 /* Order Section */
@@ -117,27 +99,13 @@ h1, h2, h3, h4, h5 {
   padding-top: 3%;
 }
 
-
-/* Delivery partners */
-#delivery-partners {
-  background-color: #fa7d09;
-  padding: 3% 5%;
-}
-
-.delivey-text {
-  padding: 9% 0;
-}
-
-.delivey-img {
-  padding: 10% 10%;
-}
-
 /* About us and Partners section */
 #aboutUs {
   background-color: #f0a500;
 }
 
 .abtUs-header {
+  color: #900c3f;
   font-family: 'IM Fell Great Primer', serif;
   font-size: 3.7rem;
   line-height: 1.5;
@@ -145,6 +113,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .abtUs-text {
+  color: #fff;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
@@ -152,9 +121,9 @@ h1, h2, h3, h4, h5 {
   padding: 2% 2%;
 }
 
-.DeliveryPartners{
+.DeliveryPartners {
   background-color: #4a3f35;
-  color: #fff;
+  color: #fbe6d4;
   padding-bottom: 1%;
   position: relative;
 }
@@ -191,6 +160,57 @@ h1, h2, h3, h4, h5 {
   font-size: 1.3rem;
   font-weight: 100;
   text-align: left;
+}
+
+/* Media Query for cellphone size */
+@media screen and (max-width: 760px) {
+  .title-image {
+    width: 85%;
+  }
+
+  .title-heading {
+    font-size: 3.1rem;
+    line-height: 1.2;
+    padding: 3% 5%;
+  }
+
+  .information-sec {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .top-level-menu {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .container-fluid.top-level-menu {
+    padding: 3% 17%;
+  }
+
+  .card-image {
+    align-self: center;
+    padding: 3% 3%;
+  }
+
+  .deliv-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .partner-text {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .abtUs-header{
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+  .abtUs-text{
+    font-size: 1.0rem;
+    line-height: 1.2;
+  }
 }
 
 /* Cart Hover Effect  */
