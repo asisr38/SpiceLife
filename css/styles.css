@@ -11,11 +11,12 @@ h1, h2, h3, h4, h5 {
 
 /* ID section */
 #title {
-  background-color: orange;
+  background-color: #ffa931;
 }
 
-.body{
-  padding-top: 9%;
+.title-texts{
+  position: relative;
+  padding-top: 11%;
 }
 
 /* Headings */
@@ -24,7 +25,8 @@ h1, h2, h3, h4, h5 {
   font-family: 'IM Fell Great Primer', serif;
   font-size: 3.7rem;
   line-height: 1.5;
-  padding: 3% 5%;
+  padding: 3% 3%;
+  text-align: center;
 }
 
 .title-description {
@@ -34,6 +36,8 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
   line-height: 1.9rem;
   padding: 2% 2%;
+  text-align: center;
+
 }
 
 .title-image {
@@ -42,7 +46,7 @@ h1, h2, h3, h4, h5 {
 
 /* Container  */
 .container-fluid {
-  padding: 2% 10%;
+  padding: 2% 13%;
 }
 
 /* Navigation Bar */
@@ -52,8 +56,9 @@ h1, h2, h3, h4, h5 {
   }
 }
 .navbar {
-  background-color: orange;
+  background-color: #ffa931;
   width: 100%;
+  padding: 1% 13% ;
 }
 
 .nav-item {
@@ -102,7 +107,7 @@ h1, h2, h3, h4, h5 {
 /* About us and Partners section */
 #aboutUs {
   background-color: #f0a500;
-  padding: 2% 15%;
+  padding: 2% 13%;
 }
 
 .abtUs-header {
@@ -164,17 +169,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Media Query for cellphone size */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
   .title-image {
-    width: 85%;
+    width: 87%;
   }
-  .body{
-    padding-top: 11%;
-  }
+
   .title-heading {
     font-size: 3.1rem;
     line-height: 1.2;
-    padding: 3% 5%;
+    padding: 9% 5% 2%;
+    text-align: center;
   }
 
   .information-sec {
