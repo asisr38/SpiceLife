@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5 {
   background-color: orange;
 }
 
+.body{
+  padding-top: 9%;
+}
 
 /* Headings */
 .title-heading {
@@ -43,14 +46,14 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Navigation Bar */
-/* @media(max-width:1000px) {
+ @media(max-width:1170px) {
   .nav-link{
-    text-align: left;
+    font-size: 1rem;
   }
-}  */
+}
 .navbar {
-  width: 95%;
   background-color: orange;
+  width: 100%;
 }
 
 .nav-item {
@@ -133,8 +136,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .socfoot {
-  padding: 5% 5%;
   color: white;
+  padding: 5% 5%;
 }
 
 .socFoot:hover {
