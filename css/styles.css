@@ -168,7 +168,9 @@ h1, h2, h3, h4, h5 {
   .title-image {
     width: 85%;
   }
-
+  .body{
+    padding-top: 9%;
+  }
   .title-heading {
     font-size: 3.1rem;
     line-height: 1.2;
