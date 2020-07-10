@@ -36,6 +36,9 @@ img {
   padding: 50px 85px;
 }
 
+.close-container{
+  text-align: right;
+}
 .container {
   width: 660px;
   align-self: center;

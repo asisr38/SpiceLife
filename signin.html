@@ -29,39 +29,41 @@
 </head>
 
 <body>
-    <div class="container">
-      <div class="signin-content">
-        <form id="signin-form" class="form-signin" method="post">
-          <img class="mb-4" src="Images/Navbar/spiceLifeLogo-small.png" alt="logo" width="130" height="100">
+  <div class="container">
+    <div class="close-container">
+      <a href="index.html"><i class="fas fa-times fa-2x"></i></a>
 
-          <div class="form-info">
-            <input type="email" id="inputEmail" class="form-input" placeholder="Email address" required autocomplete="email" autofocus placeholder="Email Address">
-
-          </div>
-          <div class="form-info">
-            <input type="password" id="inputPassword" class="form-input" placeholder="Password" required autocomplete="current-password" placeholder="Password">
-            <label for="inputPassword" class="label-forgot-password"><span><a href="#">Forgot Password?</a>
-            </span></label>
-          </div>
-          <div class="form-info">
-            <input type="checkbox" name="remember-me" id="remember-me" class="remember-me">
-            <label for="remember-me" class="label-remember-me"><span><span></span>
-              </span>Remember me</label>
-          </div>
-          <div class="form-info">
-            <button class="form-submit" name="submit" type="submit" id="submit">Sign in</button>
-            <div class="home-redirect">
-              <a href="index.html"><i class="go-home fas fa-arrow-circle-left"> Go back</i></a>
-            </div>
-          </div>
-          <div class="form-info">
-            <p class="notmem-text">Not a Member yet?</p>
-            <button onclick="location.href='signup.html';" type="button" class="register-link btn btn-outline-secondary" name="button">Create a New Account</button>
-          </div>
-          <p class="mt-5 mb-3 text-muted">©SpiceLife 2020</p>
-        </form>
-      </div>
     </div>
+    <div class="signin-content">
+      <form id="signin-form" class="form-signin" method="post">
+        <img class="mb-4" src="Images/Navbar/spiceLifeLogo-small.png" alt="logo" width="130" height="100">
+
+        <div class="form-info">
+          <input type="email" id="inputEmail" class="form-input" placeholder="Email address" required autocomplete="email" autofocus placeholder="Email Address">
+
+        </div>
+        <div class="form-info">
+          <input type="password" id="inputPassword" class="form-input" placeholder="Password" required autocomplete="current-password" placeholder="Password">
+          <label for="inputPassword" class="label-forgot-password"><span><a href="#">Forgot Password?</a>
+            </span></label>
+        </div>
+        <div class="form-info">
+          <input type="checkbox" name="remember-me" id="remember-me" class="remember-me">
+          <label for="remember-me" class="label-remember-me"><span><span></span>
+            </span>Remember me</label>
+        </div>
+        <div class="form-info">
+          <button class="form-submit" name="submit" type="submit" id="submit">Sign in</button>
+
+        </div>
+        <div class="form-info">
+          <p class="notmem-text">Not a Member yet?</p>
+          <button onclick="location.href='signup.html';" type="button" class="register-link btn btn-outline-secondary" name="button">Create a New Account</button>
+        </div>
+        <p class="mt-5 mb-3 text-muted">©SpiceLife 2020</p>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>

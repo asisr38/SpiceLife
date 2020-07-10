@@ -97,20 +97,22 @@ h2 {
 }
 
 body {
-  background-color: #ffa931;
   height: 100%;
+  background-color: #ffa931;
   font-size: 14px;
   line-height: 1.8;
   color: #222;
   font-weight: 400;
   font-family: 'Merriweather Sans', sans-serif;
-  padding: 5% 0;
 }
 
+.close-container{
+  text-align: right;
+}
 .container {
   width: 660px;
   position: relative;
-  margin: 0 auto;
+  margin: 3% auto 2%;
 }
 
 .display-flex {
@@ -153,7 +155,7 @@ body {
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
-  padding: 50px 85px;
+  padding: 35px 80px;
 }
 
 .form-info {
