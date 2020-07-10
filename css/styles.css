@@ -1,6 +1,5 @@
 body {
   font-family: 'Merriweather Sans', sans-serif;
-  margin: 0;
   text-align: center;
 }
 
@@ -9,55 +8,18 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
-/* ID section */
-#title {
-  background-color: #ffa931;
-}
-
-.title-texts{
-  position: relative;
-  padding-top: 11%;
-}
-
-/* Headings */
-.title-heading {
-  color: #900c3f;
-  font-family: 'IM Fell Great Primer', serif;
-  font-size: 3.7rem;
-  line-height: 1.5;
-  padding: 3% 3%;
-  text-align: center;
-}
-
-.title-description {
-  color: #fbe6d4;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 300;
-  line-height: 1.9rem;
-  padding: 2% 2%;
-  text-align: center;
-
-}
-
-.title-image {
-  padding: 2% 3%;
-}
-
-/* Container  */
-.container-fluid {
-  padding: 2% 13%;
-}
 
 /* Navigation Bar */
- @media(max-width:1170px) {
-  .nav-link{
+@media(max-width:1170px) {
+  .nav-link {
     font-size: 1rem;
   }
 }
+
 .navbar {
   background-color: #ffa931;
-  padding: 1% 13% ;
+  width: 100%;
+  padding: 1% 13% 1%;
 }
 
 .nav-item {
@@ -75,13 +37,55 @@ h1, h2, h3, h4, h5 {
 .nav-link:hover {
   color: #fbe6d4;
 }
+/* ID section */
+#title {
+  background-color: #ffa931;
+  padding-bottom: 8%;
+}
+
+.title-texts {
+  padding-top: 11% ;
+}
+
+/* Headings */
+.title-heading {
+  color: #900c3f;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 3.7rem;
+  line-height: 1.5;
+  padding: 7% 3%;
+  text-align: center;
+}
+
+.title-description {
+  color: #fbe6d4;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding-top: 3%;
+}
+
+.title-image {
+  padding: 3% 3%;
+  }
+
+  .title-buttons{
+    padding-top: 5%;
+  }
+
+/* Container  */
+.container-fluid {
+  padding: 2% 13%;
+  width: 100%;
+}
+
 
 /* Information bar */
 .information-sec {
   background-color: #4a3f35;
   color: #fff;
   padding-bottom: 1%;
-  position: relative;
 }
 
 /* Order and Card Section */
@@ -106,7 +110,7 @@ h1, h2, h3, h4, h5 {
 /* About us and Partners section */
 #aboutUs {
   background-color: #f0a500;
-  padding: 2% 13%;
+  padding: 1% 13%;
 }
 
 .abtUs-header {
@@ -209,11 +213,12 @@ h1, h2, h3, h4, h5 {
     line-height: 1.2;
   }
 
-  .abtUs-header{
+  .abtUs-header {
     font-size: 3.2rem;
     line-height: 1.2;
   }
-  .abtUs-text{
+
+  .abtUs-text {
     font-size: 1.0rem;
     line-height: 1.2;
   }

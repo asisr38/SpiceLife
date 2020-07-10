@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>Sign Up</title>
+  <title>Sign In</title>
   <link rel="icon" href="Images/favicon.ico">
 
   <meta charset="utf-8">
@@ -29,42 +29,39 @@
 </head>
 
 <body>
-  <form class="form-signin">
+    <div class="container">
+      <div class="signin-content">
+        <form id="signin-form" class="form-signin" method="post">
+          <img class="mb-4" src="Images/Navbar/spiceLifeLogo-small.png" alt="logo" width="130" height="100">
 
-    <img class="mb-4" src="Images/Navbar/spiceLifeLogo-small.png" alt="logo" width="130" height="100">
-    <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autocomplete="email" autofocus placeholder="Email Address">
-    <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required autocomplete="current-password" placeholder="Password">
-    <div class="checkbox">
-      <div class="row">
-        <div class="col-md-12">
-          <label>
-            <input class="remMe" type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <div class="col-md-12 text-center">
-          <a class="btn btn-link forgot-pswd text-right" href="#">Forgot Password?</a>
+          <div class="form-info">
+            <input type="email" id="inputEmail" class="form-input" placeholder="Email address" required autocomplete="email" autofocus placeholder="Email Address">
 
-        </div>
-
+          </div>
+          <div class="form-info">
+            <input type="password" id="inputPassword" class="form-input" placeholder="Password" required autocomplete="current-password" placeholder="Password">
+            <label for="inputPassword" class="label-forgot-password"><span><a href="#">Forgot Password?</a>
+            </span></label>
+          </div>
+          <div class="form-info">
+            <input type="checkbox" name="remember-me" id="remember-me" class="remember-me">
+            <label for="remember-me" class="label-remember-me"><span><span></span>
+              </span>Remember me</label>
+          </div>
+          <div class="form-info">
+            <button class="form-submit" name="submit" type="submit" id="submit">Sign in</button>
+            <div class="home-redirect">
+              <a href="index.html"><i class="go-home fas fa-arrow-circle-left"> Go back</i></a>
+            </div>
+          </div>
+          <div class="form-info">
+            <p class="notmem-text">Not a Member yet?</p>
+            <button onclick="location.href='signup.html';" type="button" class="register-link btn btn-outline-secondary" name="button">Create a New Account</button>
+          </div>
+          <p class="mt-5 mb-3 text-muted">©SpiceLife 2020</p>
+        </form>
       </div>
-
     </div>
-    <button class="btn btn-lg btn-dark btn-block" type="submit">Sign in</button>
-    <div class="home-redirect">
-      <a href="index.html"><i class="go-home fas fa-arrow-circle-left"> Go back</i></a>
-    </div>
-    <div class="registration">
-      <p class="notmem-text">Not a Member yet?</p>
-      <a class="register-link" href="signup.html"><u>Create a New Account</u></a>
-    </div>
-
-    <p class="mt-5 mb-3 text-muted">©SpiceLife 2020</p>
-  </form>
-
-
-
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <link rel="icon" href="Images/favicon.ico">
+
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=IM+Fell+Great+Primer:ital@0;1&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <!-- local css -->
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+  <section class="registration">
+    <div class="container">
+      <div class="signup-content">
+        <form id="signup-form" class="signup-form" action="signup.html" method="post">
+          <img class="spiceLogo" src="Images/Navbar/spiceLifeLogo-small.png" alt="logo" width="130" height="100">
+
+          <div class="form-info">
+            <input type="text" class="form-input" name="name" id="name" placeholder="your Name">
+          </div>
+          <div class="form-info">
+            <input type="email" class="form-input" name="email" id="email" placeholder="your Email">
+          </div>
+          <div class="form-info">
+            <input type="password" class="form-input" name="password" id="password" placeholder="Password">
+            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+          </div>
+          <div class="form-info">
+            <input type="password" class="form-input" name="re-password" id="re-password" placeholder="Retype Password">
+          </div>
+          <div class="form-info">
+            <input type="cellphone" class="form-input" name="phonenumber" id="phonenumber" placeholder="Mobile Number">
+            <label for="phonenumber" class="opt-inphone"><span><span></span>
+              </span>For security and order relater questions</label>
+          </div>
+          <div class="form-info">
+            <input type="checkbox" name="agree-terms" id="agree-term" class="agree-terms">
+            <label for="agree-term" class="label-agree-term"><span><span></span>
+              </span>I agree all statements in <a href="#" class="term-service">Terms of service</a></label>
+          </div>
+          <div class="form-info">
+            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" />
+          </div>
+        </form>
+        <p class="loginhere">
+          Have an account already ? <a href="signin.html" class="signin">Signin here</a>
+        </p>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
