@@ -2,12 +2,14 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
 }
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Merriweather';
   font-weight: 400;
 }
-
 
 /* Navigation Bar */
 @media(max-width:1170px) {
@@ -16,7 +18,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.responsive-logo{
+.responsive-logo {
   max-width: 85%;
   height: auto;
 }
@@ -24,7 +26,7 @@ h1, h2, h3, h4, h5 {
 .navbar {
   background-color: #ffa931;
   width: 100%;
-  padding: .7% 13% ;
+  padding: .7% 13%;
 }
 
 .nav-item {
@@ -42,6 +44,7 @@ h1, h2, h3, h4, h5 {
 .nav-link:hover {
   color: #fbe6d4;
 }
+
 /* ID section */
 #title {
   background-color: #ffa931;
@@ -49,7 +52,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .title-texts {
-  padding-top: 10% ;
+  padding-top: 11%;
 }
 
 /* Headings */
@@ -73,18 +76,17 @@ h1, h2, h3, h4, h5 {
 
 .title-image {
   padding: 3% 3%;
-  }
+}
 
-  .title-buttons{
-    padding-top: 5%;
-  }
+.title-buttons {
+  padding-top: 5%;
+}
 
 /* Container  */
 .container-fluid {
   padding: 2% 13%;
   width: 100%;
 }
-
 
 /* Information bar */
 .information-sec {
@@ -109,7 +111,14 @@ h1, h2, h3, h4, h5 {
 /* Order Section */
 #order {
   background-color: #f4f4f4;
-  padding-top: 3%;
+  padding-top: 2%;
+}
+
+/* menu Section */
+#menu .navbar{
+  background-color: #ffa931;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 /* About us and Partners section */
@@ -135,14 +144,16 @@ h1, h2, h3, h4, h5 {
   padding: 2% 2%;
 }
 
+#partners{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 .DeliveryPartners {
   background-color: #4a3f35;
   color: #fbe6d4;
-  padding-bottom: 1%;
-  position: relative;
 }
 
-.partner-text{
+.partner-text {
   color: #fbe6d4;
 }
 
@@ -151,7 +162,6 @@ h1, h2, h3, h4, h5 {
   background-color: #4a3f35;
   color: white;
 }
-
 
 .socfoot {
   color: white;
@@ -183,10 +193,10 @@ h1, h2, h3, h4, h5 {
 
 /* Media Query for cellphone size */
 @media screen and (max-width: 900px) {
-
-  .title-texts{
+  .title-texts {
     padding-top: 11%;
   }
+
   .title-image {
     width: 87%;
   }
@@ -226,7 +236,9 @@ h1, h2, h3, h4, h5 {
     font-size: 1.1rem;
     line-height: 1.2;
   }
-  #aboutUs{
+
+
+  #aboutUs {
     padding: 1% 9%;
   }
 
