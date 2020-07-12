@@ -1,13 +1,16 @@
-body {
-  font-family: 'Merriweather Sans', sans-serif;
-  text-align: center;
-}
 html {
-  scroll-padding-top: 70px; /* height of sticky header */
+  scroll-padding-top: 70px;
+  /* height of sticky header */
+}
+
+body {
+  font-family: 'IM Fell Great Primer', serif;
+  text-align: center;
+  font-size: 1.2rem
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Merriweather';
+  font-family: 'IM Fell Great Primer', serif;
   font-weight: 400;
 }
 
@@ -36,7 +39,7 @@ h1, h2, h3, h4, h5 {
 .nav-link {
   color: #900c3f;
   font-family: 'IM Fell Great Primer', serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 100;
   margin-left: 5px;
 }
@@ -52,7 +55,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .title-texts {
-  padding-top: 11%;
+  padding-top: 10%;
 }
 
 /* Headings */
@@ -66,9 +69,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .title-description {
-  color: #fbe6d4;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.1rem;
+  color: #fff;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.9rem;
   padding-top: 3%;
@@ -79,8 +82,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .title-buttons {
-  padding-top: 5%;
+  padding-top: 8%;
 }
+
+.info-icon {
+  font-size: 36px;
+  margin-right: 20px
+}
+
 
 /* Container  */
 .container-fluid {
@@ -93,6 +102,13 @@ h1, h2, h3, h4, h5 {
   background-color: #4a3f35;
   color: #fff;
   padding-bottom: 1%;
+}
+
+.info-text{
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+
 }
 
 /* Order and Card Section */
@@ -108,17 +124,14 @@ h1, h2, h3, h4, h5 {
   text-align: center;
 }
 
+.top-level-menu .card-title{
+  font-size: 1.3rem;
+}
+
 /* Order Section */
 #order {
   background-color: #f4f4f4;
-  padding-top: 2%;
-}
-
-/* menu Section */
-#menu .navbar{
-  background-color: #ffa931;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  padding-top: 3%;
 }
 
 /* About us and Partners section */
@@ -137,20 +150,28 @@ h1, h2, h3, h4, h5 {
 
 .abtUs-text {
   color: #fff;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.6rem;
+  font-weight: lighter;
   line-height: 1.9rem;
-  padding: 2% 2%;
+  padding: 3% 3%;
 }
 
-#partners{
-  padding-top: 1%;
-  padding-bottom: 1%;
+.deliv-logo {
+  padding-bottom: 0%;
 }
+
+
 .DeliveryPartners {
   background-color: #4a3f35;
   color: #fbe6d4;
+  padding-bottom: 1%;
+  position: relative;
+}
+
+#partners {
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .partner-text {
@@ -168,19 +189,30 @@ h1, h2, h3, h4, h5 {
   padding: 5% 5%;
 }
 
+.footer-info{
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding-top: 2%;
+}
+
+.SocialLinks{
+  padding-top: 5%;
+}
 .socFoot:hover {
   color: gold;
 }
 
 .textSocial {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.9rem;
 }
 
 #map {
-  height: 400px;
+  height: 410px;
   width: 100%;
 }
 
@@ -237,7 +269,6 @@ h1, h2, h3, h4, h5 {
     line-height: 1.2;
   }
 
-
   #aboutUs {
     padding: 1% 9%;
   }
@@ -248,9 +279,18 @@ h1, h2, h3, h4, h5 {
   }
 
   .abtUs-text {
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     line-height: 1.2;
   }
+}
+
+/* Menu Section */
+.menu-nav .nav-link {
+  color: #900c3f;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding-top: 2%;
 }
 
 /* Cart Hover Effect  */
@@ -270,3 +310,38 @@ h1, h2, h3, h4, h5 {
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
+
+#snackbar {
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #ffda00;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 10%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+/* NewsLetter */
+variables $background: #f5f6fa;
+$text: #9c9c9c;
+$input-bg-color: #fff;
+$input-text-color: #a3a3a3;
+$button-bg-color: #7f8ff4;
+$button-text-color: #fff;
+
+.formfoot {
+  &__field {
+    width: 360px;
+    background: #fff;
+    color: $input-text-color;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+  }
